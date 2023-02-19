@@ -1,4 +1,5 @@
 # NozthaGRAM
+Created with the DJANGO framework and the frontend using HTML, CSS & JavaScript
 ### A social media web app with features like :-
   #### - Follow :- A user can be followed or can follow another user.
   #### - Search :- A user can search for another user on the platform.
