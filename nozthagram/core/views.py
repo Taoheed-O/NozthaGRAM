@@ -38,7 +38,7 @@ def index(request):
         user_list = User.objects.get(username=user.user)
         user_following_all.append(user_list)
     
-    new_suggestions_list = [x for x in list(all_users) if x not in list(user_following_all())]
+    new_suggestions_list = [x for x in list(all_users) if x not in list(user_following_all)]
     current_user = User.objects.filter(username = request.user.username)
     final_suggestions_list = [x for x in list(new_suggestions_list) if x not in list(current_user)]
     random.shuffle(final_suggestions_list)
