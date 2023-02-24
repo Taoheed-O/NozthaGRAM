@@ -25,8 +25,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    color: #545454;
-    background: #b0b3b8;
+    color: #6b0303;
+    background: #8a78a7;
 }
 
 p {
@@ -736,6 +736,7 @@ header.sticky {
     display: block;
     position: relative;
     width: 100%;
+    height:20%;
 }
 
 .feature-photo > figure {
@@ -745,6 +746,7 @@ header.sticky {
 .feature-photo > figure img {
     display: inline-block;
     width: 100%;
+    height:20%;
 }
 
 .user-avatar {
